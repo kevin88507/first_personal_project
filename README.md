@@ -1,2 +1,3 @@
-# first_personal_project
-Try to create 2 restful APIs for create and verify user
+docker build -t my-flask-app .
+
+docker run -p 5000:5000 my-flask-app
