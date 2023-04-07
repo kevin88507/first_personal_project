@@ -1,3 +1,3 @@
-docker build -t my-flask-app .
+docker pull wei88507/my-flask-app:1.0
 
-docker run -p 5000:5000 my-flask-app
+docker run -p 5000:5000 --name my-flask-app wei88507/my-flask-app:1.0
